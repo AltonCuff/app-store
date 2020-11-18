@@ -1,11 +1,24 @@
 # Usage
 
-Users will be able to create/register an account as well as log into their account. Once logged in user's will be able to view the shop page with the clothing line. You will be able to view more information about a product by clicking on the view button. User's will be able to add item's to their cart by clicking on the buy button. User's can also view their purchase history by navigation to the History Page via the NavBar. Once the user added item's to their cart they can navigate to their cart by clicking on the cart icon on the NavBar. User's can link their paypal and pay their amount due.
+1. Users can register an account.
+2. Users can log in if they have an registered account.
+3. Users can navigate the application to view Bravado's clothing line.
+4. You can view more information about a product by clicking on the 'view' button.
+5. You can add items to your cart by clicking on the 'buy' button.
+6. Users can also view their purchase history by navigation to the 'History Page' via the NavBar.
+7. Once the user added items to their cart they can navigate to their cart by clicking on the cart icon on the NavBar.
+8. Users can link their paypal to pay their amount due.
 
 # Installation
 
 1.  npm install & cd client + npm install to get node_modules.
-2.  add a .env file containing your MongoDB URI + cloudconnect info.
+2.  add a .env file containing your:
+    - MongoDB : MongoDB URI
+    - Cloudinary: CLOUD_NAME
+    - Cloudinary: CLOUD_API_KEY
+    - Cloudinary: CLOUD_API_SECRET
+    - Passwordsgenerator: ACCESS_TOKEN_SECRET
+    - Passwordsgenerator: REFRESH_TOKEN_SECRET
 3.  in your terminal type npm run dev to start up both backend + client.
 
 # Security
@@ -13,14 +26,17 @@ Users will be able to create/register an account as well as log into their accou
 1. I did not embed API keys directly in my code.
 2. I didn't store API keys in files inside my application's source tree.
 3. I regenerated my API keys periodically.
+4. I added all my API keys in a .env file.
 
 # Third-Party API
 
 1. Cloudinary
-2. MongoDB
-3. Firebase
+2. Passwordsgenerator
+3. MongoDB
+4. Firebase
 
 # Deploy
 
-1. Heroku
-2. link
+1. I deployed my app using Heroku.
+2. Heroku Link
+3. https://bravado-shop.herokuapp.com/
