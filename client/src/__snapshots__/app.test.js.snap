@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <header>
+    <div
+      className="menu"
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        src="menu.svg"
+        width="30"
+      />
+    </div>
+    <div
+      className="logo"
+    >
+      <h1>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          bravado clothing
+        </a>
+      </h1>
+    </div>
+    <ul
+      style={
+        Object {
+          "left": "-100%",
+        }
+      }
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Shop
+        </a>
+      </li>
+      <li>
+        <a
+          href="/login"
+          onClick={[Function]}
+        >
+          Login + Register
+        </a>
+      </li>
+      <li
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="menu"
+          src="close.svg"
+          width="30"
+        />
+      </li>
+    </ul>
+    <div
+      className="cart-icon"
+    >
+      <span>
+        0
+      </span>
+      <a
+        href="/cart"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          src="cart.svg"
+          width="30"
+        />
+      </a>
+    </div>
+  </header>
+  <div
+    className="filter_menu"
+  >
+    <div
+      className="row"
+    >
+      <span>
+        Filters: 
+      </span>
+      <select
+        name="category"
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          value=""
+        >
+          All Products
+        </option>
+      </select>
+    </div>
+    <input
+      onChange={[Function]}
+      placeholder="Enter your search!"
+      type="text"
+      value=""
+    />
+    <div
+      className="row sort"
+    >
+      <span>
+        Sort By: 
+      </span>
+      <select
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          value=""
+        >
+          Newest
+        </option>
+        <option
+          value="sort=oldest"
+        >
+          Oldest
+        </option>
+        <option
+          value="sort=-sold"
+        >
+          Best sales
+        </option>
+        <option
+          value="sort=-price"
+        >
+          Price: Hight-Low
+        </option>
+        <option
+          value="sort=price"
+        >
+          Price: Low-Hight
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="products"
+  />
+  <div
+    className="load_more"
+  >
+    
+  </div>
+  <div
+    className="load-page"
+  >
+    <div
+      className="loader"
+    >
+      <div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div>
+                  <div>
+                    <div />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
