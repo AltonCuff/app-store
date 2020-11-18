@@ -37,6 +37,6 @@
 
 # Deploy
 
-1. I deployed my app using Heroku.
-2. Heroku Link
-3. https://bravado-shop.herokuapp.com/
+- I deployed my app using Heroku.
+- Heroku Link
+- https://bravado-shop.herokuapp.com/
